@@ -41,3 +41,22 @@ iframe#tela{
     width: 266px;
     height: 469px;
 }
+/* Configurações das sections redes sociais*/
+section#redes-socias{
+    text-align: right;
+}
+section#redes-socias img{
+    /* display: block; */
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px #00000067;
+    box-sizing: border-box;
+}
+/* Cria os efeitos nos botões*/
+section#redes-socias img:hover{
+    border: 2px solid #ffffffa8;
+    transform: translate(-5px, -5px);
+    transition: transform 0.2s, border 1s;
+    box-shadow: 5px 5px 10px #000;
+}
